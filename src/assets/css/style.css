@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+/* global css starts here */
+a {
+	font-weight: 500 !important;
+	color: #000;
+}
+h2 {
+	font-weight: 500 !important;
+}
+.btn-gradient {
+	background-image: linear-gradient(
+		to bottom,
+		#1b7da6,
+		#0091ac,
+		#00a39c,
+		#00b279,
+		#66bb49
+	);
+	border: 0px;
+	border-radius: 30px;
+	padding: 10px 13px;
+	background-size: cover;
+	transition: background-image 0.4s ease-in-out;
+}
+.btn-gradient span {
+	margin-left: 8px;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 400;
+}
+.btn-gradient:hover {
+	background-position: top;
+	transition: background-image 0.4s ease-in-out;
+}
+button.btn-light {
+	border-radius: 30px;
+}
+button.btn-light:hover {
+	background: #84c966;
+	color: #fff;
+	border-color: #84c966;
+}
+button.btn-light:hover span {
+	color: #fff !important;
+}
+button.btn-light:hover svg {
+	fill: #fff !important;
+}
+/* global css ends here */
+/* header starts here */
+header#header {
+	box-shadow: 0px 0px 10px 0px
+		rgba(14.939673913043482, 22.370706521739102, 89.25, 0.27);
+}
+header#header .header-btn:hover {
+	border: 2px solid;
+	border-color: #000;
+}
+header#header .header-btn {
+	border-radius: 2px;
+	border: 2px solid;
+	font-weight: 500;
+	height: 50px;
+	width: 97px;
+}
+header#header nav a {
+	font-size: 13px;
+}
+/* header ends here */
+/* page header starts here */
+.page-header {
+	background-color: #e6f6ff;
+	padding: 70px;
+}
+.page-header h4 {
+	font-size: 21px;
+}
+/* page header ends here */
+/* banner starts here */
+.banner {
+	padding: 100px 0px;
+}
+.looking-for-form-wrapper .radio-wrap {
+	background: #fff !important;
+	padding: 10px 15px 10px 39px !important;
+	border-radius: 5px;
+	margin: 0 0 15px 0 !important;
+	box-shadow: 0px 0px 4px 1px #2223;
+}
+.radio-wrap label.form-check-label {
+	width: 100%;
+}
+.banner-btn {
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: 600;
+}
+.banner-btn span {
+	margin-left: 12px;
+	color: #000;
+}
+/* banner ends here */
+/* online starts here */
+.online-sec {
+	padding: 100px 0px;
+}
+/* online ends here */
+/* how it work starts here */
+.how-it-works {
+	background-color: #009ded;
+	padding: 100px 0px;
+}
+.work-card-wrapper {
+	width: 80%;
+}
+/* how it work ends here */
+/* featured starts here */
+.featured-sec {
+	padding: 70px 0px;
+}
+.featured-sec .featued-slider-wrppaer img:hover {
+	filter: unset;
+}
+.featured-sec .featued-slider-wrppaer img {
+	filter: grayscale(1);
+	width: 70%;
+	transition: all 0.4s ease-in-out;
+}
+/* featured ends here */
+/* testimonails starts here */
+.testimonails-slider-wrapper::before {
+	content: "";
+	width: 28px;
+	height: 28px;
+	background: #f6f6f6;
+	display: block;
+	transform: rotate(45deg) translate(-50%, -50%);
+	position: absolute;
+	left: -2%;
+	top: 50%;
+}
+.testimonails-slider-wrapper {
+	background: #f6f6f6;
+	padding: 30px;
+	border-radius: 0.5rem;
+	margin-left: 20px;
+	position: relative;
+}
+.testimonails-slider-wrapper .slick-dots li button:before {
+	color: #0c71b9;
+	opacity: 1;
+	font-size: 8px;
+}
+.testimonails-slider-wrapper .slick-dots li.slick-active button:before {
+	color: #0c71b9;
+	opacity: 1;
+}
+.testimonails-slider-wrapper .slick-dots li {
+	margin: 0px;
+}
+.testimonails-slider-wrapper .slick-dots li.slick-active button:before {
+	border: 1px solid;
+	border-radius: 50%;
+}
+.slick-dots {
+	bottom: -67px !important;
+	text-align: start !important;
+}
+/* testimonails ends here */
+/* our members starts here */
+.our-members {
+	padding: 100px 0px;
+	background-image: url("../img/member-bg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+}
+
+/* footer starts here */
+footer {
+	padding: 70px 0px;
+	background-image: url("../img/member-bg.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center center;
+}
+.footer-social-icons-wrapper ul li a {
+	background: #fff;
+	font-size: 19px;
+	width: 36px;
+	display: inline-flex;
+	height: 36px;
+	border-radius: 50%;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.4s ease-in-out;
+}
+.footer-social-icons-wrapper ul li a:hover svg {
+	fill: #fff;
+}
+.footer-link-wrapper ul li a {
+	font-size: 14px;
+	font-weight: 500;
+}
+.footer-social-icons-wrapper ul li a:hover {
+	background-image: linear-gradient(
+		to bottom,
+		#1b7da6,
+		#0091ac,
+		#00a39c,
+		#00b279,
+		#66bb49
+	);
+}
+footer#footer .copyright-wrapper p {
+	font-size: 13px;
+}
+/* footer ends here */

@@ -1,0 +1,99 @@
+.login-sec {
+	background-image: url("../img/member-bg.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 250px;
+}
+.login-form-wrapper .form-control {
+	color: #666;
+	padding: 0.75em 37px;
+	height: auto;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #e5e5e5;
+	border-radius: 2px;
+	box-shadow: none;
+	box-sizing: border-box;
+	transition: all 0.2s linear;
+}
+.login-form-wrapper .form-group-email::before {
+	content: "";
+	position: absolute;
+	background: url("../img/envelop.png") no-repeat;
+	width: 17px;
+	height: 20px;
+	background-size: contain;
+	left: 17px;
+	top: 50%;
+	transform: translateY(-35%);
+}
+.login-form-wrapper .form-group-password::before {
+	content: "";
+	position: absolute;
+	background: url("../img/2-1.png") no-repeat;
+	width: 17px;
+	height: 20px;
+	background-size: contain;
+	left: 17px;
+	top: 50%;
+	transform: translateY(-52%);
+}
+.login-form-wrapper .form-group-pass::before {
+	content: "";
+	position: absolute;
+	background: url("../img/ock.png") no-repeat;
+	width: 17px;
+	height: 20px;
+	background-size: contain;
+	left: 17px;
+	top: 50%;
+	transform: translateY(-52%);
+}
+.login-sec .login-heading-wrapper h5 {
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+	line-height: 25px;
+	letter-spacing: 2px;
+}
+.login-sec .login-heading-wrapper h3 {
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 50px;
+}
+.login-sec .login-heading-wrapper h6 {
+	font-size: 14px;
+	font-weight: 200;
+	text-decoration: none;
+	line-height: 25px;
+}
+.login-sec .login-form-wrapper button {
+	background-image: linear-gradient(
+		to left bottom,
+		#4d8e35,
+		#579e3b,
+		#60ae42,
+		#6bbe48,
+		#75cf4f
+	) !important;
+}
+.login-form-wrapper .radio-wrap {
+	background: #fff !important;
+	padding: 10px 15px 10px 39px !important;
+	border-radius: 5px;
+	margin: 0 0 15px 0 !important;
+	box-shadow: 0px 0px 4px 1px #2223;
+}
+.login-form-wrapper .form-switch input {
+	width: 3rem;
+	height: 1.5rem;
+}
+div#step-3 .radio-wrap {
+	background: transparent !important;
+	box-shadow: none;
+	padding-bottom: 0px !important;
+}
+div#step-3 .radio-wrap label {
+	color: #fff;
+}

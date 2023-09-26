@@ -1,0 +1,191 @@
+.membership-plans {
+	padding: 100px 0px;
+}
+.membership-content-wrapper p {
+	font-weight: 500;
+	font-size: 15px;
+}
+.plan-question-btn-wrapper {
+	background: #e3e3e3;
+	padding: 15px;
+	position: relative;
+}
+.plan-question-btn-wrapper::before {
+	content: "";
+	width: 5px;
+	height: 100%;
+	display: block;
+	background: linear-gradient(
+		to bottom,
+		#1b7da6,
+		#0091ac,
+		#00a39c,
+		#00b279,
+		#66bb49
+	);
+	position: absolute;
+	left: 0px;
+}
+.plan-question-btn-wrapper::after {
+	content: "";
+	width: 5px;
+	height: 100%;
+	display: block;
+	background: linear-gradient(
+		to bottom,
+		#1b7da6,
+		#0091ac,
+		#00a39c,
+		#00b279,
+		#66bb49
+	);
+	position: absolute;
+	right: 0px;
+}
+.plan-question-btn-wrapper a {
+	padding: 10px 31px !important;
+	font-size: 14px;
+}
+
+.plan-question-btn-wrapper a:hover {
+	background: #efaf00;
+}
+/* membership card starts here */
+.membership-plans-card-wrapper {
+	padding: 25px 25px 25px 25px;
+	border: 2px solid #84c966 !important;
+	border-radius: 5px 5px 5px 5px;
+}
+.membership-plans-card-wrapper .plans-btn-wrapper a:hover {
+	background: #efaf00;
+}
+.membership-plans-card-wrapper .plan-heading-wrapper {
+	border-bottom: 1px solid #151c3673;
+	margin-bottom: 28px;
+	padding-bottom: 22px;
+}
+
+.membership-plans-card-wrapper .plan-list-wrapper ul li {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	padding-bottom: calc(14px / 2);
+}
+.membership-plans-card-wrapper .plan-list-wrapper ul li span {
+	flex: 0 0 90%;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 25px;
+}
+.membership-plans-card-wrapper .plan-list-wrapper {
+	padding: 0px 16px;
+}
+.membership-plans-card-wrapper .plan-list-wrapper {
+	padding: 0px 16px;
+}
+
+.membership-plans-card-wrapper .plan-heading-wrapper h6 {
+	color: #f56946;
+	font-family: "Poppins", Sans-serif;
+	font-size: 15px;
+	margin: 0px;
+	font-weight: 500;
+}
+.membership-plans-card-wrapper .plan-heading-wrapper .plan-price-wrapper {
+	text-align: end;
+}
+.membership-plans-card-wrapper .plan-heading-wrapper .plan-switch-wrapper {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+.plan-switch-wrapper .form-switch .form-check-input {
+	width: 3em;
+	height: 1.5em;
+}
+.membership-plans-card-wrapper .plan-heading-wrapper h4 {
+	font-size: 22px;
+}
+/* membership card ends here */
+/* membership checkout starts here */
+.membership-checkout {
+	padding: 100px 0px;
+}
+.membership-checkout .membership-checkout-heading-wrapper h4 {
+	color: #3a3a3a;
+	font-size: 1.67rem;
+	font-weight: 600;
+	line-height: 1.2em;
+	margin-right: 11px;
+}
+.membership-checkout-form-wrapper input.form-control {
+	width: 100%;
+	border: 1px solid #009cec;
+	border-radius: 5px;
+	height: 56px;
+	background: #fcfcfc;
+	color: #000;
+}
+.membership-checkout-form-wrapper select.form-select {
+	width: 100%;
+	border: 1px solid #009cec;
+	border-radius: 5px;
+	height: 56px;
+	background: #fcfcfc;
+	color: #000;
+}
+.membership-checkout-form-wrapper .form-selects .css-13cymwt-control {
+	border: 0px;
+	width: 100%;
+	border: 1px solid #009cec;
+	border-radius: 5px;
+	height: 56px;
+	background: #fcfcfc;
+	color: #000;
+}
+.membership-checkout-form-wrapper label {
+	font-weight: 300;
+}
+.membsrship-checkout-wrapper .membership-checkout-heading-wrapper {
+	align-items: center;
+}
+.membsrship-checkout-wrapper .membership-checkout-heading-wrapper span {
+	font-size: 11px;
+	font-style: italic;
+	font-weight: normal;
+	letter-spacing: normal;
+}
+.biling-heading-wrapper h4 {
+	padding-top: 30px;
+	padding-bottom: 20px;
+	color: #3a3a3a;
+	font-size: 1.67rem;
+	font-weight: 600;
+	line-height: 1.2em;
+	margin-right: 11px;
+}
+.order-summary .card-title.h5 {
+	font-size: 1.67rem;
+	color: #3a3a3a !important;
+	font-weight: 600;
+	line-height: 1.2em;
+}
+
+.order-summary .card-title.h5 a {
+	font-size: 11px;
+	font-style: italic;
+	font-weight: normal;
+	letter-spacing: normal;
+}
+
+.order-summary p {
+	font-size: 14px;
+	font-weight: 500;
+}
+.order-summary {
+	padding: 40px 40px !important;
+	width: 80%;
+	margin: 0px auto;
+	margin-right: 0px;
+}
+/* membership checkout ends here */

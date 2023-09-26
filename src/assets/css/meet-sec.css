@@ -1,0 +1,9 @@
+/* meet starts here */
+.meet-sec {
+	padding: 100px 0px;
+}
+.meet-card-wrapper img {
+	height: 400px;
+	object-fit: cover;
+}
+/* meet ends here */

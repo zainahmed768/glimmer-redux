@@ -1,0 +1,139 @@
+.groups-sec .card p {
+	font-size: 13px;
+}
+.groups-sec .card-body {
+	padding: 30px 20px;
+}
+.groups-sec .card .card-title {
+	color: #000;
+	font-family: "Poppins";
+	font-weight: 400;
+	font-size: 25px;
+}
+.groups-sec .card {
+	border-radius: 9px;
+}
+.groups-sec .card-img-top {
+	border-radius: 9px;
+}
+.group-search input {
+	background: #f3f3f3;
+	color: #4a5568;
+	border: 0px;
+}
+.group-search .input-group-text {
+	background: #f3f3f3;
+	border: 0px;
+}
+.group-search .input-group-text .btn {
+	background: #f3f3f3;
+	border: 0px;
+}
+.group-search .input-group-text .btn,
+.group-search .input-group-text .btn svg {
+	fill: #000 !important;
+	color: #000 !important;
+}
+/* group detail css starts here */
+.group-detail-img-wrapper img {
+	filter: brightness(0.5);
+}
+.gronp-btns .btn span {
+	background: #f4f4f4;
+	height: 20px;
+	width: 20px;
+	display: inline-block;
+	color: #000;
+}
+.gronp-btns .btn {
+	border-radius: 3px !important;
+}
+.group-detail-sec .about-card-wrapper {
+	border-color: #73c2eb !important;
+	padding: 35px 35px !important;
+}
+.group-detail-sec .about-card-wrapper h4 {
+	font-size: 22px !important;
+}
+.group-detail-sec .about-card-wrapper .card-btn-wrapper button {
+	text-decoration: none;
+	color: #429d75 !important;
+}
+.group-detail-sec .about-card-wrapper .card-btn-wrapper {
+	border-color: #429d75 !important;
+}
+.card-member-wrapper img {
+	height: 64px;
+	width: 64px;
+	object-fit: cover;
+}
+.about-card-wrapper .card-member-wrapper h6.member-username {
+	color: rgb(19 17 17 / 60%) !important;
+}
+.group-post-header-wrapper img {
+	height: 80px;
+	width: 80px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.group-post-wrapper {
+	padding: 30px 0px;
+}
+.group-detail-sec .groupt-post-heading-wrapper {
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+.group-detail-sec .groupt-post-heading-wrapper {
+	font-size: 30px;
+}
+.group-like-btn-wrapper button {
+	box-shadow: 0 5px 30px rgba(255, 111, 99, 0.4);
+	height: 50px;
+	width: 50px;
+}
+.group-like-btn-wrapper .count {
+	color: #ff6f63;
+}
+.group-like-btn-wrapper button:hover {
+	background: #ff6f63;
+	border-color: inherit;
+}
+.group-post-header-wrapper span.time-since {
+	color: #767676;
+	font-weight: 300;
+	font-size: 14px;
+}
+.group-detail-sec-wrapper .members-img-wrapper img:not(:first-child) {
+	position: relative;
+	left: -18px;
+	z-index: -1;
+}
+.members-img-wrapper img {
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.group-detail-sec-wrapper .total-member p {
+	color: #707070;
+	font-family: "Poppins";
+	text-transform: capitalize;
+}
+.single-member-img-wrapper img {
+	height: 60px;
+	width: 60px;
+	object-fit: cover;
+}
+.single-member-content-wrapper span.joined-txt {
+	color: #737373;
+	font-size: 12px;
+}
+.single-member-content-wrapper a {
+	color: #000;
+	font-family: "Poppins";
+}
+.viewing-members-wrapper p {
+	color: #767676;
+	font-size: 13px;
+}
+/* group detail css ends here */
